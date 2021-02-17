@@ -1,0 +1,35 @@
+.kursuse-pealkiri {
+    color: rgb(14, 0, 9);
+    font-size: 60px;
+    font-family: reggae one;
+    text-align: center;
+    background-color: darkorange;
+}
+.kursuste-lehe-pilt {
+    height: 200px;
+    width: 150px;
+}
+
+.cv-link {
+    font-size: 60px;
+    cursor: pointer;
+    padding: 100px;
+    background-color: whitesmoke;
+    margin-bottom: 60px;
+    border-radius: 50%;
+    font-family: reggae one;
+
+}
+
+.tagasi-link {
+    color: rgb(14, 8, 14);
+    display: block;
+    text-align: center;
+    font-size: 60px;
+    background-color: gray;
+}
+
+.tagasi-link:hover {
+    cursor: pointer;
+}
+

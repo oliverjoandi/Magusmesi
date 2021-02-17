@@ -1,0 +1,81 @@
+.main-link-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-link {
+    color: rgb(243, 14, 14) ;
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    margin-top: 100px;
+    padding: 20px 0;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.main-link img {
+    width: 250px;
+    height: 160px;
+}
+
+.main-link p {
+    font-family: 'reggae one';
+}
+
+.main-link:hover {
+    transition: .1s;
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0 8px 180px 0px yellow;
+}
+
+.main-text {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+    font-family: 'reggae one';
+}
+
+.rectangle {
+    height: 100px;
+    width: 700px;
+    background-color: yellow;
+    margin: 50px auto;
+}
+
+.facebook-nupp {
+    height: 30px;
+    padding: 20px 10px;
+    font-family: 'reggae one';
+}
+
+.facebook-nupp span {
+    position: relative;
+    top: -30px;
+    height: 30px;
+    color: rgb(73, 28, 236);
+}
+
+.facebook-nupp:hover {
+    color: rgb(73, 28, 236);
+    cursor: pointer;
+}
+
+.twitter-nupp {
+    font-family: 'reggae one';
+    height: 30px;
+    padding: 20px 10px;
+}
+
+.twitter-nupp span {
+    position: relative;
+    top: -30px;
+    height: 30px;
+    color: rgb(73, 28, 236);
+}
+
+.twitter-nupp:hover {
+    color: rgb(73, 28, 236);
+    cursor: pointer;
+}
